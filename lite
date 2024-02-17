@@ -1,0 +1,206 @@
+{
+   "Version":"9.0.0",
+   "ReleaseNotes":"",
+   "fbn":true,
+   "Premium":[
+      {
+         "Name":"AUTOMÁTICO BR",
+         "Subname":"Seleção automática de servidores",
+         "FLAG":"vpn",
+         "ServerIP":"new.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      },
+      {
+         "Name":"BRASIL 01 FREE",
+         "Subname":"Servidor BR Qnax",
+         "FLAG":"BR",
+         "ServerIP":"br1.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      },
+      {
+         "Name":"BRASIL 02 FREE",
+         "Subname":"Servidor BR Qnax",
+         "FLAG":"BR",
+         "ServerIP":"br2.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      },
+      {
+         "Name":"BRASIL 03 FREE",
+         "Subname":"Servidor BR Qnax",
+         "FLAG":"BR",
+         "ServerIP":"br3.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      },
+      {
+         "Name":"BRASIL 04 FREE",
+         "Subname":"Servidor BR Qnax",
+         "FLAG":"BR",
+         "ServerIP":"br4.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      },
+      {
+         "Name":"BRASIL 05 FREE",
+         "Subname":"Servidor BR Qnax",
+         "FLAG":"BR",
+         "ServerIP":"br5.sbrinjector.com.br",
+         "ServerPort":"80",
+         "sslPort":"443",
+         "CloudFrontIP":"d2g0ghkva88tk3.cloudfront.net",
+         "User":"ssh",
+         "Pass":" "
+      }
+   ],
+   "NetworksPremium":[
+      {
+         "Name":"AUTOMÁTICO",
+         "Subname":"Seleção automática de rede",
+         "FLAG":"VPN",
+         "Payload":"",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "V2Ray":"",
+         "CloudFront":"",
+         "tunnelType":"Auto"
+      },
+      {
+         "Name":"VIVO EASY [1]",
+         "Subname":"Sem promoção ativa",
+         "Payload":"GET / HTTP/1.1[crlf]Host: app_host[crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]Accept-Encoding: @sshbrasiloficial[crlf][crlf]",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#104.17.75.206#104.18.6.80#104.18.7.80#104.18.7.41#104.18.6.41#162.159.128.7#162.159.138.6104.19.239.25#104.18.28.182#104.16.51.111#104.19.240.25#104.18.29.182#104.16.53.111#104.19.242.25#104.19.241.93#104.18.26.160#104.19.240.93#104.16.237.16#104.19.243.25",
+         "ProxyPort":"80",
+         "CloudFront":"",
+         "tunnelType":"http"
+      },
+      {
+         "Name":"VIVO EASY [2]",
+         "Subname":"Sem promoção regiões",         
+         "Payload":"GET / HTTP/1.1[crlf]Host: app_host[crlf]Upgrade: Websocket[crlf][crlf]",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#127.0.0.1#104.17.75.206#104.18.6.80#104.18.7.80#104.18.7.41#104.18.6.41#162.159.128.7#162.159.138.6104.19.239.25#104.18.28.182#104.16.51.111#104.19.240.25#104.18.29.182#104.16.53.111#104.19.242.25#104.19.241.93#104.18.26.160#104.19.240.93#104.16.237.16#104.19.243.25",
+         "ProxyPort":"80",
+         "CloudFront":"",
+         "tunnelType":"http"
+      },      
+	{
+         "Name":"CLARO PLANOS [1]",
+         "Subname":"Plano controle ou Flex",
+         "Payload":"",
+         "Sni":"dns.web.whatsapp.com#m.waze.com#c.whatsapp.net",
+	 "tlsVersion": "TLSv1.1",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "tunnelType":"ssl"
+      },	
+      {
+         "Name":"CLARO PLANOS [1]",
+         "Subname":"Plano controle ou Flex",
+         "Payload":"",
+         "Sni":"dns.web.whatsapp.com#m.waze.com#c.whatsapp.net",
+	 "tlsVersion": "TLSv1.2",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "tunnelType":"ssl"
+      },
+	{
+         "Name":"CLARO PLANOS [1]",
+         "Subname":"Plano controle ou Flex",
+         "Payload":"",
+         "Sni":"dns.web.whatsapp.com",
+	 "tlsVersion": "TLSv1.3",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "tunnelType":"ssl"
+      }
+   ],
+   "NetworksAuto":[
+      {
+         "Name":"WIFI",
+         "Payload":"CONNECT app_host [protocol][crlf][crlf]",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "V2Ray":"",
+         "tunnelType":"direct"
+      },
+       {
+         "Name":"VIVO DELAY [1]",
+         "Subname":"Sem promoção ativa",
+         "Payload":"[delay_split]ACL / HTTP/1.1[crlf]Host: app_host[crlf]",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"app_host",
+         "ProxyPort":"80",
+         "CloudFront":"",
+         "tunnelType":"http"
+      },
+      {
+         "Name":"TIM V2Ray",
+	 "Subname":"Algumas regiões",
+         "Payload":"",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "V2Ray":"vmess://eyJhZGQiOiJkb25hdGlvbnMubGl2ZXN0cmVhbS5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InYycmF5LnNicmluamVjdG9yLmNvbS5iciIsImlkIjoiM2E0MDgzNzUtNDk1Ny00NTE1LWJmOTAtNDEzM2U3ZTg1ZDExIiwibmV0Ijoid3MiLCJwYXRoIjoiL1VTTlA0Q0hJLyIsInBiayI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IiIsInNjeSI6ImF1dG8iLCJzaWQiOiIiLCJzbmkiOiJkb25hdGlvbnMubGl2ZXN0cmVhbS5jb20iLCJzcHgiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==",
+         "tunnelType":"v2ray"
+      },
+      {
+         "Name":"CLARO V2Ray",
+	 "Subname":"Algumas regiões",
+         "Payload":"",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "V2Ray":"vmess://eyJ2IjogIjIiLCAicHMiOiAiMjA5LjE0LjY5LjI0Nzo4MDgwIiwgImFkZCI6ICIyMDkuMTQuNjkuMjQ3IiwgInBvcnQiOiA4MDgwLCAiYWlkIjogMCwgInR5cGUiOiAiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi96ZjhFQVZCdi8iLCAiaG9zdCI6ICJ2MnJheS5zYnJpbmplY3Rvci5jb20uYnIiLCAiaWQiOiAiYjhhMDhlNDQtOGFjZC00NTc3LTlhMjEtNWQzMTYzMDFmM2IxIiwgInRscyI6ICJub25lIn0=",
+         "tunnelType":"v2ray"
+      },
+      {
+         "Name":"OI V2Ray",
+	 "Subname":"Algumas regiões",
+         "Payload":"",
+         "Sni":"",
+         "Tlsip":"",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "CloudFront":"",
+         "V2Ray":"vmess://eyJ2IjogIjIiLCAicHMiOiAiMjA5LjE0LjY5LjI0Nzo4MDgwIiwgImFkZCI6ICIyMDkuMTQuNjkuMjQ3IiwgInBvcnQiOiA4MDgwLCAiYWlkIjogMCwgInR5cGUiOiAiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi96ZjhFQVZCdi8iLCAiaG9zdCI6ICJ2MnJheS5zYnJpbmplY3Rvci5jb20uYnIiLCAiaWQiOiAiYjhhMDhlNDQtOGFjZC00NTc3LTlhMjEtNWQzMTYzMDFmM2IxIiwgInRscyI6ICJub25lIn0=",
+         "tunnelType":"v2ray"
+      }
+   ]
+}
