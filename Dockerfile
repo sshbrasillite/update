@@ -8,7 +8,7 @@ RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/
 
 # Expor a porta 80
-EXPOSE 80
+EXPOSE 8989
 
 # Comando para iniciar o NGINX no contêiner
 CMD ["nginx", "-g", "daemon off;"]
